@@ -1,0 +1,30 @@
+<?php
+
+	define('LANG_CONTENT_OVERALL_TPL', 'Стиль вывода');
+	define('LANG_CONTENT_OVERALL_TPL_LIST', 'Список');
+	define('LANG_CONTENT_OVERALL_TPL_CARD', 'Плитка');
+	define('LANG_CONTENT_OVERALL_TPL_SLIDER', 'Слайдер');
+	define('LANG_CONTENT_OVERALL_SORT', 'Сортировать записи');
+	define('LANG_CONTENT_OVERALL_SORT_DATE', 'По дате');
+	define('LANG_CONTENT_OVERALL_SORT_CTYPE', 'По типу контента');
+	define('LANG_CONTENT_OVERALL_SORT_TITLE', 'По названию');
+	define('LANG_CONTENT_OVERALL_LIMIT_TITLE', 'Обрезать заголовок');
+	define('LANG_CONTENT_OVERALL_LIMIT_TEASER', 'Обрезать анонс');
+	define('LANG_CONTENT_OVERALL_LIMIT_RECORDS', 'Кол-во записей для вывода');
+	define('LANG_CONTENT_OVERALL_HINT_LIMIT_RECORDS', 'Будет выводить заданное кол-во записей');
+	define('LANG_CONTENT_OVERALL_HINT_FORMAT_DELETE', 'форматирование текста будет удалено');
+	define('LANG_CONTENT_OVERALL_SHOW_AUTHOR', 'Показывать автора');
+	define('LANG_CONTENT_OVERALL_SHOW_GROUP', 'Показывать группу');
+	define('LANG_CONTENT_OVERALL_SHOW_COMMENT', 'Показывать кол-во комментариев');
+	define('LANG_CONTENT_OVERALL_SHOW_PUBLISHED_DATE', 'Показывать дату публикации');
+	define('LANG_CONTENT_OVERALL_SHOW_PLACEHOLDER', 'Показывать картинку заглушку');
+	define('LANG_CONTENT_OVERALL_SHOW_CTYPE', 'Показывать тип контента');
+	define('LANG_CONTENT_OVERALL_SHOW_CATEGORY', 'Показывать категорию');
+	define('LANG_CONTENT_OVERALL_ENABLE_CACHE', 'Кешировать виджет');
+	define('LANG_CONTENT_OVERALL_ENABLE_SHUFFLE', 'Перемешивать записи');
+	define('LANG_CONTENT_OVERALL_CTYPE_ENABLE', 'Выводить записи');
+	define('LANG_CONTENT_OVERALL_CTYPE_CATEGORY', 'Категория');
+	define('LANG_CONTENT_OVERALL_CTYPE_TEASER', 'Поле анонса');
+	define('LANG_CONTENT_OVERALL_CTYPE_PHOTO', 'Поле изображения');
+	define('LANG_CONTENT_OVERALL_CTYPE_DATASET', 'Применить фильтры из набора');
+	define('LANG_CONTENT_OVERALL_CTYPE_LIMIT', 'Кол-во выводимых записей');

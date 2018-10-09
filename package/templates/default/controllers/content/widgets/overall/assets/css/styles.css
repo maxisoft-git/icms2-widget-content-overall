@@ -1,0 +1,150 @@
+.overall-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.overall-list .item {
+    margin-bottom: 30px;
+}
+
+.overall-list .item .image{
+    float: left;
+    margin-right: 15px;
+}
+.overall-list .item .title a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+.overall-list .item .info {
+    margin-left: 80px;
+}
+
+.overall-list .item .details {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #aaa;
+    font-size: 13px;
+    margin-top: 15px;
+    color: #999;
+}
+
+.overall-list .details span + span {
+    margin-left: 15px;
+}
+
+.overall-list__big {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.overall-list__big .col {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.overall-list__big .item {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+.overall-list__big .image {
+    flex-shrink: 0;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.overall-list__big .image img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.overall-list__big .title a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+    line-height: 1.1;
+}
+
+.overall-list__big .details {
+    font-size: 13px;
+    margin-top: 15px;
+    color: #999;
+}
+
+.overall-list__big .details span + span {
+    margin-left: 15px;
+}
+
+.overall-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.overall-cards .card {
+    flex: 0 1 32%;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.overall-cards .card .image {
+    margin-bottom: 0px;
+}
+
+.overall-cards .card .image img {
+    max-width: 100%;
+}
+
+.overall-cards .card > .info {
+    padding: 20px 20px;
+}
+
+.overall-cards .card .title {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.overall-cards .card .title a {
+    color: #000;
+    line-height: 1;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+}
+.overall-cards .card .details {
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    font-size: 13px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.overall-cards .card .details a {
+    color: #000;
+    text-decoration: none;
+}
+.overall-cards .card .details .date {
+    float: right;
+}
+
